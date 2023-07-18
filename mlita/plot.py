@@ -16,6 +16,8 @@ def scatter(y, y_train, y_train_pre, y_test, y_test_pre):
     plt.xlabel('Calculated',size=15)
     plt.ylabel('Predicted',size=15)
     plt.title('XGBoost',size=15)
+
+
     return plt
 
 def bar(x_data, feature_importance):

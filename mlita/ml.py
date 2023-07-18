@@ -1,15 +1,13 @@
 import math
 import numpy as np
 import pandas as pd
-
-from xgboost import XGBRegressor
+import xgboost as xgb
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error,r2_score
 from sklearn.inspection import permutation_importance
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
 
-#from plot import *
 from mlita.plot import *
 
 
@@ -17,7 +15,8 @@ class MachineLearning(object):
     """ machine learning 
     """
 
-    def __init__(self, x_data, y_data):
+    def __init__(self, data, x_data, y_data):
+        self.data = data
         self.x_data = x_data
         self.y_data = y_data
 
@@ -36,10 +35,10 @@ class MachineLearning(object):
         else:
             data = pd.read_csv(file)
 
-        x_data = data.iloc[:,0:-1].to_numpy()
-        y_data = data.iloc[:,-1].to_numpy()
+        x_data = data.iloc[:,0:-1]
+        y_data = data.iloc[:,-1]
 
-        obj = cls(x_data, y_data)
+        obj = cls(data, x_data, y_data)
         return obj
         
     def xgboost(self, params=None, save_data=True, save_picture=True):
@@ -80,26 +79,29 @@ class MachineLearning(object):
         x_test_std=sc.transform(x_test)
 
         # Fitting XGBoost to the Training set
-        clf=XGBRegressor(**params)
+        clf=xgb.XGBRegressor(**params)
         clf.fit(np.array(x_train_std),y_train)
+
+
         y_train_pre=clf.predict(x_train_std)
         y_test_pre=clf.predict(x_test_std)
         feature_importance=clf.feature_importances_
 
         results = {
-            'x_data': x_data,
-            'y_data': y_data,
             'y_train': y_train,
             'y_train_pre': y_train_pre,
             'y_test': y_test,
             'y_test_pre': y_test_pre,
             'feature_importance': feature_importance
-            }               
-        return results
+            }  
+        self.results = results
+             
+        return clf
 
-    def make_score(self, results):
+    def make_score(self):
         """make score
         """
+        results = self.results
         a, b = results['y_test'], results['y_test_pre']
         mse = mean_squared_error(a,b)
         mae = mean_absolute_error(a,b)
@@ -113,10 +115,11 @@ class MachineLearning(object):
             }               
         return scores 
 
-    def to_csv(self, results):
-        #预测值重新放到一个表格中
+    def to_csv(self):
+        """ 预测值重新放到一个表格中
+        """
+        results = self.results
         for key, value in results.items():
-            print(key+'.csv')
             if key=='feature_importance':
                 # 将特征重要性信息放到Excel表格中
                 fea=pd.DataFrame()
@@ -128,11 +131,21 @@ class MachineLearning(object):
                 pd_value.to_csv(key+'.csv')
 
     def save_picture(self):
-        if save_picture==True:
-            fig1 = scatter(y_data, y_train, y_train_pre, y_test, y_test_pre)
-            fig1.savefig('scatter_plot')
-            fig2 = bar(x_data, feature_importance)
-            fig2.savefig('bar_plot')
+        """
+        """
+        results = self.results
+        x_data = self.x_data
+        y_data = self.y_data
+        y_train = results['y_train']
+        y_train_pre = results['y_train_pre']
+        y_test = results['y_test']
+        y_test_pre = results['y_test_pre']
+        feature_importance = results['feature_importance']
+
+        fig1 = scatter(y_data, y_train, y_train_pre, y_test, y_test_pre)
+        fig1.savefig('scatter_plot')
+        fig2 = bar(x_data, feature_importance)
+        fig2.savefig('bar_plot')
 
         return True
 
