@@ -24,7 +24,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3. Xgboost" href="xgboost.html" />
+    <link rel="next" title="Data Sets" href="datasets.html" />
     <link rel="prev" title="1. Installation" href="installation.html" /> 
 </head>
 
@@ -81,7 +81,39 @@
              
   <section id="ITA">
 <h1><span class="section-number">2. </span>ITA<a class="headerlink" href="#ITA" title="Permalink to this heading"></a></h1>
-<p>The static electric dipole polarizability (a, polarizability for succinctness hereafter) quantifies the linear response of a molecule’s dipole moment to an external electric field.1 It is routinely linked with various fundamental electronic structure characteristics such as electronegativity,2 nuclear quadrupole resonance,3 chemical hardness/softness,4–6 molecular acidity/ basicity,7 ionization potential,8 activation energy,9 and the van der Waals radius.10 The dielectric constant and refractive</p>
+<p>The Information-theoretic approach quantities</p>
+<p>The Shannon entropy <span class="math notranslate nohighlight">\(S_S\)</span> characterizes the spatial delocalization of the electron density, and Fisher information <span class="math notranslate nohighlight">\(I_F\)</span> measures the sharpness or localization of the same. They are defined by</p>
+<div class="math notranslate nohighlight">
+\[S_{S} = -\int \rho(\mathbf{r}) ln\rho(\mathbf{r}) d\mathbf{r}\]</div>
+<div class="math notranslate nohighlight">
+\[F_{I} = -\int \frac{|\nabla\rho(\mathbf{r})|^2}{\rho(\mathbf{r})} d\mathbf{r}\]</div>
+<p>respectively. The Ghosh–Berkowitz–Parr (GBP) entropy <span class="math notranslate nohighlight">\(S_{GBP}\)</span> is a functional of both the electron density and the kinetic energy density,</p>
+<div class="math notranslate nohighlight">
+\[S_{GBP} = -\int \frac{3}{2}k\rho(\mathbf{r})\left[c+ ln\frac{t(\mathbf{r};\rho)}{t_{TF}(\mathbf{r};\rho)} \right]  d\mathbf{r}\]</div>
+<p>where <span class="math notranslate nohighlight">\(t(\mathbf{r};\rho)\)</span> and <span class="math notranslate nohighlight">\(t_{TF}(\mathbf{r};\rho)\)</span> are the (non-interacting) kinetic-energy density and the Thomas–Fermi (TF) kinetic energy density, respectively. The former is related to the total kinetic energy <span class="math notranslate nohighlight">\(T_S\)</span> <span class="math notranslate nohighlight">\(\mathcal{via}\)</span> <span class="math notranslate nohighlight">\(\int t(\mathbf{r};\rho) d\mathbf{r} = T_S\)</span> and <span class="math notranslate nohighlight">\(t_{TF}(\mathbf{r};\rho)\)</span> is defined as <span class="math notranslate nohighlight">\(t_{TF}(\mathbf{r};\rho) = C_k \rho^{5/ 3}(\mathbf{r})\)</span>. Here, k is the Boltzmann constant, <span class="math notranslate nohighlight">\(c = (5/3) + ln(4\pi c_K/3)\)</span>,
+and <span class="math notranslate nohighlight">\(c_K = (3/10)(3\pi^2)^{2/3}\)</span>. The kinetic energy density, <span class="math notranslate nohighlight">\(t(\mathbf{r};\rho)\)</span>, can be computed from the orbital densities. <span class="math notranslate nohighlight">\(t(\mathbf{r};\rho) = \sum_i \frac{1}{8} \frac{\nabla \rho_i \dot \nabla \rho_i}{\nabla\rho_i}-\frac{1}{8} \nabla^2 \rho\)</span>. Different forms of the kinetic-energy density are used in different contexts, but within the mathematical framework of Ghosh, Berkowitz, and Parr, this is the maximum-entropy choice. In addition, some other ITA quantities have been
+introduced in conceptual density functional theory (CDFT). One example is Onicescu information energy of order n.</p>
+<div class="math notranslate nohighlight">
+\[E_n = \frac{1}{n-1}\int \rho^n(\mathbf{r})  d\mathbf{r}\]</div>
+<p>relative R{‘e}nyi entropy of order n</p>
+<div class="math notranslate nohighlight">
+\[R_n^r = \frac{1}{n-1}ln\int \left[ \frac{\rho^n(\mathbf{r})}{\rho^{n-1}_0(\mathbf{r})}  d\mathbf{r} \right]\]</div>
+<p>and information gain (also called Kullback–Leibler divergence, or relative Shannon entropy) <span class="math notranslate nohighlight">\(I_G\)</span> is given in eqn(6)</p>
+<div class="math notranslate nohighlight">
+\[I_G = \int \rho(\mathbf{r}) ln \frac{\rho(\mathbf{r})}{\rho_0(\mathbf{r})}  d\mathbf{r}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\rho_0(\mathbf{r})\)</span> is the reference-state density satisfying the same normalization condition as <span class="math notranslate nohighlight">\(\rho(\mathbf{r})\)</span>.</p>
+<p>Recently, one ofthe present authors proposed another three functions <span class="math notranslate nohighlight">\(G_1\)</span>, <span class="math notranslate nohighlight">\(G_2\)</span>,and <span class="math notranslate nohighlight">\(G_3\)</span>, whose analytical forms as shown below:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+G_1 &amp;= \sum_A \int \nabla^2 \rho_A(\mathbf{r}) \frac{\rho_A(\mathbf{r})}{\rho_A^0(\mathbf{r})}  d\mathbf{r}\\
+G_2 &amp;= \sum_A \int \rho_A(\mathbf{r})\left[\frac{\nabla^2 \rho_A(\mathbf{r})}{\rho_A(\mathbf{r})}-\frac{\nabla^2 \rho_A^0(\mathbf{r})}{\rho_A^0(\mathbf{r})} \right ]  d\mathbf{r}\\
+G_3 &amp;= \sum_A \int \rho_A(\mathbf{r})\left[\nabla ln\frac{\rho_A(\mathbf{r})}{\rho_A^0(\mathbf{r})} \right]^2  d\mathbf{r}\\
+\end{aligned}\end{split}\]</div>
+<p>The quantifications and applications of eqn (7)–(9) can be found in ref. 44 and 46. Note that during the past decade, we have attempted to seamlessly glue the density functional theory and information theory together, as electron density can be a linker between these two theories. The progress and applications can be found in our recent review.59 In addition, Hirshfeld’s stockholder approach60–64 is often adopted in the literature to partition atoms in a molecule, as defined in eqn (10),</p>
+<div class="math notranslate nohighlight">
+\[\rho_A(\mathbf{r}) = \omega_A(\mathbf{r})\rho(\mathbf{r}) = \frac{\rho_A^0(r-R_A)}{\sum_B \rho_B^0(r-R_B)} \rho(\mathbf{r})\]</div>
+<p>Here <span class="math notranslate nohighlight">\(\rho_A(\mathbf{r})\)</span> is the Hirshfeld density for atom A in a molecule, <span class="math notranslate nohighlight">\(\omega_A(\mathbf{r})\)</span> is a sharing function for atom A, <span class="math notranslate nohighlight">\(\rho_B^0(\mathbf{\mathbf{r}-\mathbf{R}_A})\)</span> is the density of atom B centered at the nuclear position vector <span class="math notranslate nohighlight">\(\mathbf{R}_A\)</span>,and <span class="math notranslate nohighlight">\(\rho(\mathbf{r})\)</span> is the actual molecular density. The sum over all the nuclei-centered free atom densities, typically spherically averaged ground-state atomic densities, is termed the promolecular density.
+While the stockholder approach is natural in the context of ITA because it is also based on information-theoretic arguments, other molecular partitioning schemes like Becke’s fuzzy atom approach and Bader’s zero-flux atoms-in-molecules (AIM) method can also be used.</p>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
@@ -116,38 +148,28 @@
 <td><p>Text</p></td>
 <td><p>And more</p></td>
 </tr>
+<tr class="row-odd"><td><p>Information gain</p></td>
+<td><p><span class="math notranslate nohighlight">\(I_G\)</span></p></td>
+<td><p>Text</p></td>
+<td><p>And more</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p><span class="math notranslate nohighlight">\(G_1\)</span></p></td>
+<td><p>Text</p></td>
+<td><p>And more</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p><span class="math notranslate nohighlight">\(G_2\)</span></p></td>
+<td><p>Text</p></td>
+<td><p>And more</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p><span class="math notranslate nohighlight">\(G_3\)</span></p></td>
+<td><p>Text</p></td>
+<td><p>And more</p></td>
+</tr>
 </tbody>
 </table>
-<p>The Shannon entropy <span class="math notranslate nohighlight">\(S_S\)</span> characterizes the spatial delocalization of the electron density, and Fisher information <span class="math notranslate nohighlight">\(I_F\)</span> measures the sharpness or localization of the same. They are defined by</p>
-<div class="math notranslate nohighlight">
-\[S_{S} = -\int \rho(\mathbf{r}) ln\rho(\mathbf{r}) d\mathbf{r}\]</div>
-<div class="math notranslate nohighlight">
-\[F_{I} = -\int \frac{|\nabla\rho(\mathbf{r})|^2}{\rho(\mathbf{r})} d\mathbf{r}\]</div>
-<p>respectively. The Ghosh–Berkowitz–Parr (GBP) entropy <span class="math notranslate nohighlight">\(S_{GBP}\)</span> is a functional of both the electron density and the kinetic energy density,</p>
-<div class="math notranslate nohighlight">
-\[S_{GBP} = -\int \frac{3}{2}k\rho(\mathbf{r})\left[c+ ln\frac{t(\mathbf{r};\rho)}{t_{TF}(\mathbf{r};\rho)} \right]  d\mathbf{r}\]</div>
-<p>where <span class="math notranslate nohighlight">\(t(\mathbf{r};\rho)\)</span> and <span class="math notranslate nohighlight">\(t_{TF}(\mathbf{r};\rho)\)</span> are the (non-interacting) kinetic-energy density and the Thomas–Fermi (TF) kinetic energy density, respectively. The former is related to the total kinetic energy <span class="math notranslate nohighlight">\(T_S\)</span> <span class="math notranslate nohighlight">\(\mathcal{via}\)</span> <span class="math notranslate nohighlight">\(\int t(\mathbf{r};\rho) d\mathbf{r} = T_S\)</span> and <span class="math notranslate nohighlight">\(t_{TF}(\mathbf{r};\rho)\)</span> is defined as <span class="math notranslate nohighlight">\(t_{TF}(\mathbf{r};\rho) = C_k \rho^{5/ 3}(\mathbf{r})\)</span>. Here, k is the Boltzmann constant, <span class="math notranslate nohighlight">\(c = (5/3) + ln(4\pi c_K/3)\)</span>,
-and <span class="math notranslate nohighlight">\(c_K = (3/10)(3\pi^2)^{2/3}\)</span>. The kinetic energy density, <span class="math notranslate nohighlight">\(t(\mathbf{r};\rho)\)</span>, can be computed from the orbital densities. <span class="math notranslate nohighlight">\(t(\mathbf{r};\rho) = \sum_i \frac{1}{8} \frac{\nabla \rho_i \dot \nabla \rho_i}{\nabla\rho_i}-\frac{1}{8} \nabla^2 \rho\)</span>. Different forms of the kinetic-energy density are used in different contexts, but within the mathematical framework of Ghosh, Berkowitz, and Parr, this is the maximum-entropy choice. In addition, some other ITA quantities have been
-introduced in conceptual density functional theory (CDFT). One example is Onicescu information energy of order n.</p>
-<div class="math notranslate nohighlight">
-\[E_n = \frac{1}{n-1}\int \rho^n(\mathbf{r})  d\mathbf{r}\]</div>
-<p>relative Re´nyi entropy of order n</p>
-<div class="math notranslate nohighlight">
-\[R_n^r = \frac{1}{n-1}ln\int \left[ \frac{\rho^n(\mathbf{r})}{\rho^{n-1}_0(\mathbf{r})}  d\mathbf{r} \right]\]</div>
-<p>and information gain (also called Kullback–Leibler divergence, or relative Shannon entropy) <span class="math notranslate nohighlight">\(I_G\)</span> is given in eqn(6)</p>
-<div class="math notranslate nohighlight">
-\[I_G = \int \rho(\mathbf{r}) ln \frac{\rho(\mathbf{r})}{\rho_0(\mathbf{r})}  d\mathbf{r}\]</div>
-<p>where <span class="math notranslate nohighlight">\(\rho_0(\mathbf{r})\)</span> is the reference-state density satisfying the same normalization condition as <span class="math notranslate nohighlight">\(\rho(\mathbf{r})\)</span>.</p>
-<p>Recently, one ofthe present authors proposed another three functions <span class="math notranslate nohighlight">\(G_1\)</span>, <span class="math notranslate nohighlight">\(G_2\)</span>,and <span class="math notranslate nohighlight">\(G_3\)</span>, whose analytical forms as shown below:</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}
-G_1 &amp;= \sum_A \int \nabla^2 \rho_A(\mathbf{r}) \frac{\rho_A(\mathbf{r})}{\rho_A^0(\mathbf{r})}  d\mathbf{r}\\
-G_2 &amp;= \sum_A \int \nabla^2 \rho_A(\mathbf{r}) \frac{\rho_A(\mathbf{r})}{\rho_A^0(\mathbf{r})}  d\mathbf{r}\\
-G_3 &amp;= \sum_A \int \nabla^2 \rho_A(\mathbf{r}) \frac{\rho_A(\mathbf{r})}{\rho_A^0(\mathbf{r})}  d\mathbf{r}\\
-\end{aligned}\end{split}\]</div>
-<p>The quantifications and applications of eqn (7)–(9) can be found in ref. 44 and 46. Note that during the past decade, we have attempted to seamlessly glue the density functional theory and information theory together, as electron density can be a linker between these two theories. The progress and applications can be found in our recent review.59 In addition, Hirshfeld’s stockholder approach60–64 is often adopted in the literature to partition atoms in a molecule, as defined in eqn (10),</p>
-<p>Here <span class="math notranslate nohighlight">\(\rho_A(\mathbf{r})\)</span> is the Hirshfeld density for atom A in a molecule, <span class="math notranslate nohighlight">\(\omega_A(\mathbf{r})\)</span> is a sharing function for atom A, <span class="math notranslate nohighlight">\(\rho_B^0(\mathbf{\mathbf{r}-\mathbf{R}_A})\)</span> is the density of atom B centered at the nuclear position vector <span class="math notranslate nohighlight">\(\mathbf{R}_A\)</span>,and <span class="math notranslate nohighlight">\(\rho(\mathbf{r})\)</span> is the actual molecular density. The sum over all the nuclei-centered free atom densities, typically spherically averaged ground-state atomic densities, is termed the promolecular density.
-While the stockholder approach is natural in the context of ITA because it is also based on information-theoretic arguments, other molecular partitioning schemes like Becke’s fuzzy atom approach and Bader’s zero-flux atoms-in-molecules (AIM) method can also be used.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
@@ -163,7 +185,7 @@ While the stockholder approach is natural in the context of ITA because it is al
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="installation.html" class="btn btn-neutral float-left" title="1. Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="xgboost.html" class="btn btn-neutral float-right" title="3. Xgboost" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="datasets.html" class="btn btn-neutral float-right" title="Data Sets" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
