@@ -5,7 +5,8 @@
 
 MLITA |version|
 ###############
-**MLITA** is the abbreviation of machine learning information theory , it is a python package for the non-normalizecd molecular integrals over Primitive Cartesian Gaussian orbitals. This is a particularly naive implementation in python: little attempt is made to conserve memory or CPU time. Nevertheless, it is useful for small test calculations, in particular for investigating ideas quantum chemistry.
+**MLITA** is the abbreviation of Machine Learning Information-theoretic approach.
+
 
 Contents
 ========
