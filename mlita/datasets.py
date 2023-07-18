@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.datasets.base import Bunch
+from sklearn.utils import Bunch
 
 def load_rbb():
     """

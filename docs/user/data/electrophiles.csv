@@ -1,0 +1,353 @@
+,Name,Solvent,N Parameter,sN Parameter,E parameter,Classification,reference
+0,"2,3-dichloro-5,6-dicyano-p-benzoquinone (DDQ)",MeCN,0,0,-3.66,3,DOI: 10.1021/ja405890d
+1,((2-(2-iodophenyl)propan-2-yl)oxy)(trifluoromethyl)sulfane,0,0,0,-14.52,3,DOI: 10.1002/anie.201805859
+2,((2-phenylpropan-2-yl)oxy)(trifluoromethyl)sulfane,0,0,0,-13.77,3,DOI: 10.1002/anie.201805859
+3,"(2,4,6-trimethylphenyl)ethylium ion",0,0,0,6.04,1,DOI: 10.1021/ma048389o
+4,"(2-(4-methoxyphenyl)ethene-1,1-diyldisulfonyl)dibenzene",DMSO,0,0,-13.88,3,DOI: 10.1002/asia.201101046
+5,"(2-phenylethene-1,1-diyldisulfonyl)dibenzene",DMSO,0,0,-12.93,3,DOI: 10.1002/asia.201101046
+6,"(2S,5S)-5-benzyl-3-methyl-4-oxo-1-(3-phenylallylidene)-2-((E)-styryl)imidazolidin-1-ium",dichloromethane,0,0,-5.90,2,DOI: 10.1002/ajoc.201402009
+7,(3-CF3)-tritylium ion,,0,0,1.18,1,DOI: 10.1021/ja021010y
+8,(3-Cl)-tritylium ion,,0,0,1.06,1,DOI: 10.1021/ja021010y
+9,(3-Cl)3-tritylium ion,,0,0,1.99,1,DOI: 10.1021/ja021010y
+10,(3-F)-tritylium ion,,0,0,1.01,1,DOI: 10.1002/ejoc.201100910
+11,(3-F)2-tritylium ion,,0,0,1.54,1,DOI: 10.1002/ejoc.201100910
+12,(3-F)3-tritylium ion,,0,0,2.07,1,DOI: 10.1002/ejoc.201100910
+13,(3-F)4-tritylium ion,,0,0,2.54,1,DOI: 10.1002/ejoc.201100910
+14,(4-CF3)-tritylium ion,,0,0,1.33,1,DOI: 10.1021/ja021010y
+15,(4-CF3)2-tritylium ion,,0,0,2.28,1,DOI: 10.1021/ja021010y
+16,(4-F)-tritylium ion,,0,0,0.35,1,DOI: 10.1002/ejoc.201100910
+17,(4-F)2-tritylium ion,,0,0,0.17,1,DOI: 10.1002/ejoc.201100910
+18,(4-F)3-tritylium ion,,0,0,0.05,1,DOI: 10.1002/ejoc.201100910
+19,(4-Me)-tritylium ion,,0,0,-0.13,1,DOI: 10.1021/ja021010y
+20,(4-Me)2-tritylium ion,,0,0,-0.70,1,DOI: 10.1021/ja021010y
+21,(4-Me)3-tritylium ion,,0,0,-1.21,1,DOI: 10.1021/ja021010y
+22,(4-MeO)-tritylium ion,,0,0,-1.59,1,DOI: 10.1002/ejoc.201100910
+23,(4-MeO)2-tritylium ion,,0,0,-3.04,1,DOI: 10.1021/ja021010y
+24,(4-MeO)3-tritylium ion,,0,0,-4.35,1,DOI: 10.1021/ja021010y
+25,"(4-MeO,3-OMe)-tritylium ion",,0,0,-1.62,1,DOI: 10.1021/ja021010y
+26,"(4-MeO,4-Me)-tritylium ion",,0,0,-2.13,1,DOI: 10.1021/ja021010y
+27,(4-NMe2)-tritylium ion,,0,0,-7.93,1,DOI: 10.1021/ja021010y
+28,(4-NMe2)2-tritylium ion (= Malachite green),,0,0,-10.29,1,DOI: 10.1021/ja021010y
+29,(4-NMe2)3-tritylium ion (= Crystal violet),,0,0,-11.26,1,DOI: 10.1021/ja021010y
+30,"(4-OMe,3-Me)-tritylium ion",,0,0,-1.84,1,DOI: 10.1021/ja021010y
+31,(ani)2CH+,0,0,0,0.00,5,DOI: 10.1021/ja010890y
+32,(dfp)(mfp)CH+,0,0,0,7.52,5,DOI: 10.1021/ja306522b
+33,(dfp)2CH+,0,0,0,8.02,1,DOI: 10.1021/ja306522b
+34,(dfp)PhCH+,0,0,0,6.74,5,DOI: 10.1021/ja306522b
+35,(dma)2CH+,0,0,0,-7.02,5,DOI: 10.1021/ja010890y
+36,(dpa)2CH+,0,0,0,-4.72,5,DOI: 10.1021/ja010890y
+37,"(E)-1,2-dimethyl-3-(4-methylbenzylidene)-3H-indol-1-ium ion",0,0,0,-5.05,3,DOI: 10.1021/acs.joc.5b01298
+38,"(E)-1,3-diphenylprop-2-en-1-one (in DMSO)",DMSO,0,0,-19.39,3,DOI: 10.1021/jacs.7b05106
+39,(E)-1-methyl-4-(styrylsulfonyl)benzene (in DMSO),DMSO,0,0,-24.69,2,DOI: 10.1021/jacs.7b05106
+40,"(E)-2,6-di-tert-butyl-4-(3-(4-methoxyphenyl)allylidene)cyclohexa-2,5-dien-1-one",DMSO,0,0,-17.42,3,DOI: 10.1021/acs.orglett.0c00338
+41,"(E)-2,6-di-tert-butyl-4-(3-(4-nitrophenyl)allylidene)cyclohexa-2,5-dien-1-one",DMSO,0,0,-16.25,3,DOI: 10.1021/acs.orglett.0c00338
+42,"(E)-2,6-di-tert-butyl-4-(3-phenylallylidene)cyclohexa-2,5-dien-1-one",DMSO,0,0,-17.00,3,DOI: 10.1021/acs.orglett.0c00338
+43,(E)-2-(tert-butyl)-3-(4-methylbenzylidene)-3H-indol-1-ium,dichloromethane,0,0,-5.06,1,DOI: 10.1002/ejoc.201600572
+44,(E)-2-methyl-3-(4-methylbenzylidene)-3H-indol-1-ium ion,0,0,0,-5.15,3,DOI: 10.1021/acs.joc.5b01298
+45,(E)-3-(4-cyano-phenyl)-1-phenyl-prop-2-en-1-one (in DMSO),DMSO,0,0,-17.64,3,DOI: 10.1021/ja200820m
+46,(E)-3-(4-nitro-phenyl)-1-phenyl-prop-2-en-1-one (in DMSO),DMSO,0,0,-17.33,3,DOI: 10.1021/ja200820m
+47,"(E)-3-benzylidene-1,2-dimethyl-3H-indol-1-ium ion",0,0,0,-4.96,2,DOI: 10.1021/acs.joc.5b01298
+48,"(E)-4,4-dimethyl-1-(4-nitrophenyl)pent-1-en-3-one",DMSO,0,0,-19.15,1,DOI: 10.1021/ja200820m
+49,(E)-4-(4-nitrophenyl)but-3-en-2-one (in DSMO),DMSO,0,0,-19.36,1,DOI: 10.1021/ja200820m
+50,(E)-4-methyl-1-(4-nitrophenyl)pent-1-en-3-one (in DMSO),DMSO,0,0,-19.17,1,DOI: 10.1021/ja200820m
+51,(E)-4-phenylbut-3-en-2-one (in DMSO),DMSO,0,0,-23.01,3,DOI: 10.1021/jacs.7b05106
+52,(E)-N-(4-(dimethylamino)benzylidene)-4-methylbenzenesulfonamide (in DMSO),DMSO,0,0,-15.09,3,DOI: 10.1021/ja200820m
+53,(E)-N-(4-methoxybenzylidene)-4-methylbenzenesulfonamide (in DMSO),DMSO,0,0,-13.05,3,DOI: 10.1021/ja200820m
+54,(E)-N-benzylidene-4-methylbenzenesulfonamide (in DMSO),DMSO,0,0,-11.50,3,DOI: 10.1021/ja200820m
+55,"(E)-N-benzylidene-P,P-diphenylphosphinic amide",DMSO,0,0,-15.89,3,DOI: 10.1021/ja200820m
+56,(E)-tert-butyl benzylidenecarbamate (in DMSO),DMSO,0,0,-14.22,3,DOI: 10.1021/ja200820m
+57,"(ethene-1,1-diyldisulfonyl)dibenzene",DMSO,0,0,-7.50,3,DOI: 10.1002/asia.201101046
+58,(Ftol)2CH+,0,0,0,5.24,5,DOI: 10.1021/ja306522b
+59,(fur)(ani)CH+,0,0,0,-0.81,5,DOI: 10.1021/ja306522b
+60,(fur)2CH+,0,0,0,-1.36,5,DOI: 10.1021/ja010890y
+61,(ind)2CH+,0,0,0,-8.76,5,DOI: 10.1021/ja010890y
+62,(jul)2CH+,0,0,0,-9.45,5,DOI: 10.1021/ja010890y
+63,(lil)2CH+,0,0,0,-10.04,5,DOI: 10.1021/ja010890y
+64,(mfa)2CH+,0,0,0,-3.85,5,DOI: 10.1021/ja010890y
+65,(mfp)2CH+,0,0,0,6.87,5,DOI: 10.1021/ja306522b
+66,(mfp)PhCH+,0,0,0,6.23,5,DOI: 10.1021/ja306522b
+67,(mor)2CH+,0,0,0,-5.53,5,DOI: 10.1021/ja010890y
+68,(mpa)2CH+,0,0,0,-5.89,5,DOI: 10.1021/ja010890y
+69,(p-nitrophenyl)diazomethane,0,0,0,-18.30,3,DOI: 10.1002/chem.202201376
+70,(pcp)2CH+,0,0,0,5.48,5,DOI: 10.1021/ja306522b
+71,(pfa)2CH+,0,0,0,-3.14,5,DOI: 10.1021/ja010890y
+72,(pfp)2CH+,0,0,0,5.01,5,DOI: 10.1021/ja306522b
+73,(PhCH2)2N+=CH-CH-Ph,0,0,0,-8.50,3,DOI: 10.1002/anie.200802889
+74,(pyr)2CH+,0,0,0,-7.69,5,DOI: 10.1021/ja010890y
+75,"(S,E)-2,2,3-trimethyl-4-oxo-1-((E)-3-phenylallylidene)-5-(3,4,5-trimethoxybenzyl)imidazolidin-1-ium",dichloromethane,0,0,-7.00,2,DOI: 10.1002/anie.201301864
+76,"(S,E)-2,2,3-trimethyl-4-oxo-5-((perfluorophenyl)methyl)-1-((E)-3-phenylallylidene)imidazolidin-1-ium",dichloromethane,0,0,-6.00,2,DOI: 10.1002/anie.201301864
+77,"(S,E)-5-((1H-indol-3-yl)methyl)-2,2,3-trimethyl-4-oxo-1-((E)-3-phenylallylidene)imidazolidin-1-ium",dichloromethane,0,0,-7.30,2,DOI: 10.1002/ajoc.201402009
+78,"(S,E)-5-benzyl-1-((E)-3-(4-(dimethylamino)phenyl)allylidene)-2,2,3-trimethyl-4-oxoimidazolidin-1-ium",dichloromethane,0,0,-10.60,2,DOI: 10.1002/ajoc.201402009
+79,"(S,E)-5-benzyl-1-((E)-3-(4-cyanophenyl)allylidene)-2,2,3-trimethyl-4-oxoimidazolidin-1-ium",dichloromethane,0,0,-6.00,2,DOI: 10.1002/ajoc.201402009
+80,"(S,E)-5-benzyl-1-((E)-3-(4-methoxyphenyl)allylidene)-2,2,3-trimethyl-4-oxoimidazolidin-1-ium",dichloromethane,0,0,-8.00,2,DOI: 10.1002/ajoc.201402009
+81,"(S,E)-5-benzyl-2,2,3-trimethyl-1-((E)-3-(3-nitrophenyl)allylidene)-4-oxoimidazolidin-1-ium",dichloromethane,0,0,-6.10,2,DOI: 10.1002/ajoc.201402009
+82,"(S,E)-5-benzyl-2,2,3-trimethyl-1-((E)-3-(4-nitrophenyl)allylidene)-4-oxoimidazolidin-1-ium",dichloromethane,0,0,-5.90,2,DOI: 10.1002/ajoc.201402009
+83,"(S,E)-5-benzyl-2,2,3-trimethyl-4-oxo-1-((E)-3-(p-tolyl)allylidene)imidazolidin-1-ium",dichloromethane,0,0,-7.20,2,DOI: 10.1002/ajoc.201402009
+84,(tfm)2CH+,0,0,0,7.96,2,DOI: 10.1021/ja306522b
+85,(tfm)PhCH+,0,0,0,6.70,5,DOI: 10.1021/ja306522b
+86,(thq)2CH+,0,0,0,-8.22,5,DOI: 10.1021/ja010890y
+87,(tol)2CH+,0,0,0,3.63,5,DOI: 10.1021/ja010890y
+88,"1,1,3-triphenylallylium ion",0,0,0,0.98,3,DOI: 10.1021/ar020094c
+89,"1,1,3-triphenylpropyn-1-ylium-Cr(CO)3",,0,0,-0.25,3,DOI: 10.1021/ar020094c
+90,"1,1,3-tris(4-(dimethylamino)phenyl)allylium ion",0,0,0,-9.84,3,DOI: 10.1021/ar020094c
+91,"1,1-bis(4-dimethylaminophenyl)-3-phenylallylium ion",0,0,0,-8.97,3,DOI: 10.1021/ar020094c
+92,"1,1-dianisyl-3-phenylallylium ion",0,0,0,-2.67,3,DOI: 10.1021/ar020094c
+93,"1,2-diaza-1,3-diene 1a",DMSO,0,0,-13.28,3,DOI: 10.1002/chem.201000828
+94,"1,2-diaza-1,3-diene 1b",DMSO,0,0,-13.90,3,DOI: 10.1002/chem.201000828
+95,"1,2-diaza-1,3-diene 1c",DMSO,0,0,-14.91,3,DOI: 10.1002/chem.201000828
+96,"1,2-diaza-1,3-diene 1d",DMSO,0,0,-15.38,3,DOI: 10.1002/chem.201000828
+97,"1,2-diaza-1,3-diene 1e",MeOH,0,0,-14.90,1,DOI: 10.1002/chem.201000828
+98,"1,2-diaza-1,3-diene 1f",MeOH,0,0,-15.30,1,DOI: 10.1002/chem.201000828
+99,"1,3,5-trinitrobenzene",0,0,0,-13.19,3,DOI: 10.1021/jo0505526
+100,"1,3-bis(2,4,6-trimethylphenyl)but-1-ylium ion",0,0,0,6.16,1,DOI: 10.1021/ma048389o
+101,"1,3-diphenylpropyn-1-ylium-Cr(CO)3",,0,0,1.07,3,DOI: 10.1021/ar020094c
+102,"1,3-dithianylium ion",0,0,0,-2.14,3,DOI: 10.1021/ar020094c
+103,"1,4-dioxaspiro[4.5]decan-8-one (in DMSO)",DMSO,0,0,-18.20,1,DOI: 10.1021/jacs.8b01657
+104,1-(4-chlorophenyl)cyclopent-2-enylium ion,0,0,0,3.20,3,DOI: 10.1021/ar020094c
+105,1-(tert-butyl)-2-cinnamoyl-3-methyl-1H-imidazol-3-ium,DMSO,0,0,-11.80,3,DOI: 10.1007/s11244-018-0914-5
+106,1-methyl-3-((julolidin-9-yl)methylene)-3H-indol-1-ium ion,0,0,0,-7.79,3,DOI: 10.1021/acs.joc.5b01298
+107,1-methyl-3-(4-methylbenzylidene)-3H-indol-1-ium ion,0,0,0,-2.19,3,DOI: 10.1021/acs.joc.5b01298
+108,1-methylpiperidin-4-one (in DMSO),DMSO,0,0,-18.40,1,DOI: 10.1021/jacs.8b01657
+109,1-methylsulfanylpropan-2-one (in DMSO),DMSO,0,0,-15.60,1,DOI: 10.1021/jacs.8b01657
+110,1-phenyl-propyn-1-ylium-Co2(CO)5(PPh3),,0,0,-6.19,3,DOI: 10.1021/ar020094c
+111,1-phenyl-proyn-ylium-Co2(CO)6,,0,0,-0.97,3,DOI: 10.1021/ar020094c
+112,1-phenylcyclopent-2-enylium ion,0,0,0,2.89,3,DOI: 10.1021/ar020094c
+113,1-phenylprop-2-en-1-one (in DMSO),DMSO,0,0,-15.25,3,DOI: 10.1021/jacs.7b05106
+114,"2,2,4-trichloro-1(2H)-naphthalenone",MeCN,0,0,-11.24,3,DOI: 10.1021/ol100592j
+115,"2,3,4,5,6,6-hexachlorocyclohexa-2,4-dien-1-one",MeCN,0,0,-6.75,3,DOI: 10.1021/ol100592j
+116,"2,4-dinitrothiophene",0,0,0,-12.33,3,DOI: 10.1021/jo0505526
+117,"2,5-dichloroquinone (C-Cl)",0,0,0,-16.11,3,DOI: 10.1021/ja505613b
+118,"2,5-dichloroquinone (C-H)",0,0,0,-12.28,3,DOI: 10.1021/ja505613b
+119,"2,6-di-tert-butyl-4-(2,2,2-trifluoroethylidene)cyclohexa-2,5-dien-1-one",DMSO,0,0,-11.68,3,DOI: 10.1002/ejoc.202000295
+120,"2,6-di-tert.butyl-4-(3,5-difluorobenzylidene)cyclohexa-2,5-dienone",0,0,0,-14.50,3,DOI: 10.1002/ejoc.200900299
+121,"2,6-di-tert.butyl-4-(3-fluorobenzylidene)cyclohexa-2,5-dienone",0,0,0,-15.03,3,DOI: 10.1002/ejoc.200900299
+122,"2,6-di-tert.butyl-4-(4-nitrobenzylidene)cyclohexa-2,5-dienone",0,0,0,-14.36,3,DOI: 10.1002/ejoc.200900299
+123,"2,6-dimethoxy-4-(4-(dimethylamino)benzylidene)cyclohexa-2,5-dienone",0,0,0,-17.18,3,DOI: 10.1002/ejoc.200900299
+124,"2,6-dimethoxy-4-(4-methoxybenzylidene)cyclohexa-2,5-dienone",0,0,0,-16.38,3,DOI: 10.1002/ejoc.200900299
+125,"2,6-dimethyl-4-(4-(dimethylamino)benzylidene)cyclohexa-2,5-dienone",0,0,0,-16.36,3,DOI: 10.1002/ejoc.200900299
+126,"2,6-diphenyl-4-benzylidenecyclohexa-2,5-dienone",0,0,0,-11.87,3,DOI: 10.1002/ejoc.200900299
+127,"2-(4-methoxybenzylidene)-1,3-dithiane 1,1,3,3-tetraoxide",DMSO,0,0,-14.55,3,DOI: 10.1002/asia.201101046
+128,"2-(4-methoxybenzylidene)benzo[d][1,3]dithiole 1,1,3,3-tetraoxide",DMSO,0,0,-13.02,3,DOI: 10.1002/asia.201101046
+129,2-(4-methoxyphenyl)chromenylium ion,0,0,0,-4.95,3,DOI: 10.1021/ar020094c
+130,"2-(p-(dimethylamino)benzylidene)-indan-1,3-dione",0,0,0,-13.56,3,DOI: 10.1039/b708025e
+131,"2-(p-methoxybenzylidene)-indan-1,3-dione",0,0,0,-11.32,3,DOI: 10.1039/b708025e
+132,"2-benzylidene-indan-1,3-dione",0,0,0,-10.11,3,DOI: 10.1039/b708025e
+133,"2-benzylidenebenzo[d][1,3]dithiole 1,1,3,3-tetraoxide",DMSO,0,0,-11.78,3,DOI: 10.1002/asia.201101046
+134,"2-cinnamoyl-1,3-dimethyl-1H-imidazol-3-ium",DMSO,0,0,-11.52,3,DOI: 10.1002/anie.201109042
+135,"2-cinnamoyl-1-(2,6-dimethoxyphenyl)-3-methyl-1H-imidazol-3-ium",DMSO,0,0,-12.02,3,DOI: 10.1007/s11244-018-0914-5
+136,2-cinnamoyl-1-(4-methoxyphenyl)-3-methyl-1H-imidazol-3-ium,DMSO,0,0,-11.79,3,DOI: 10.1007/s11244-018-0914-5
+137,2-cinnamoyl-1-mesityl-3-methyl-1H-imidazol-3-ium,DMSO,0,0,-11.48,3,DOI: 10.1007/s11244-018-0914-5
+138,2-cinnamoyl-3-methyl-1-(perfluorophenyl)-1H-imidazol-3-ium,DMSO,0,0,-10.09,3,DOI: 10.1007/s11244-018-0914-5
+139,2-methylcyclohexenone,DMSO,0,0,-27.50,1,DOI: 10.1039/D0SC06628A
+140,2-methylcyclopentenone,DMSO,0,0,-22.10,3,DOI: 10.1039/D0SC06628A
+141,"2-phenyl-1,3-dithianylium ion",0,0,0,-6.43,3,DOI: 10.1021/ar020094c
+142,"2-phenyl-1,3-dithiolan-2-ylium ion",0,0,0,-5.91,3,DOI: 10.1021/ar020094c
+143,2-phenylethene-1-sulfonyl fluoride,DMSO,0,0,-16.63,3,DOI: 10.1002/anie.201601875
+144,"3,6-dinitro-1-tosyl-1H-indole",0,0,0,-12.90,3,DOI: 10.1039/d1cc04074j
+145,3-(4-(dimethylamino)benzylidene)-1-methyl-3H-indol-1-ium ion,0,0,0,-6.26,3,DOI: 10.1021/acs.joc.5b01298
+146,3-(4-methoxybenzylidene)-1-methyl-3H-indol-1-ium iom,0,0,0,-3.02,3,DOI: 10.1021/acs.joc.5b01298
+147,3-(trimethylsilyl)propyn-1-ylium-Co2(CO)6,,0,0,-1.60,3,DOI: 10.1021/ar020094c
+148,3-benzylidene-1-methyl-3H-indol-1-ium ion,0,0,0,-1.80,3,DOI: 10.1021/acs.joc.5b01298
+149,3-chloro-benzaldehyde (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+150,3-fluoro-benzaldehyde (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+151,3-methoxy-benzaldehyde (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+152,3-methylcyclohexenone,DMSO,0,0,-29.60,1,DOI: 10.1039/D0SC06628A
+153,3-methylcyclopentenone,DMSO,0,0,-28.90,1,DOI: 10.1039/D0SC06628A
+154,3-methylenedihydrofuranone,DMSO,0,0,-19.40,3,DOI: 10.1039/D0SC06628A
+155,3-methylenetetrahydropyran-2-one,DMSO,0,0,-19.50,3,DOI: 10.1039/D0SC06628A
+156,3-nitro-1-tosyl-1H-indole,0,0,0,-14.87,3,DOI: 10.1039/d1cc04074j
+157,3-phenylpropyn-1-ylium-Co2(CO)6,,0,0,-1.58,3,DOI: 10.1021/ar020094c
+158,"4,6-dinitrobenzofurazan",0,0,0,-5.46,3,DOI: 10.1021/jo0505526
+159,"4,6-dinitrobenzofuroxan",0,0,0,-5.06,3,DOI: 10.1021/jo0614339
+160,"4,6-dinitrotetrazolopyridine",0,0,0,-4.67,3,DOI: 10.1021/jo0505526
+161,"4-(2,2-bis(phenylsulfonyl)vinyl)-N,N-dimethylaniline",DMSO,0,0,-16.53,3,DOI: 10.1002/asia.201101046
+162,4-aza-6-nitrobenzofuroxan,0,0,0,-5.86,3,DOI: 10.1021/jo0505526
+163,4-bromo-3-nitro-1-tosyl-1H-indole,0,0,0,-14.60,2,DOI: 10.1039/d1cc04074j
+164,4-bromo-<i>trans-beta</i>-nitrostyrene,,0,0,-13.37,3,DOI: 10.1021/jo201678u
+165,4-chlorobenzaldehyde-boron trichloride complex,,0,0,1.44,3,DOI: 10.1021/ar020094c
+166,4-cyano-6-nitro-benzofuroxane,0,0,0,-6.41,3,DOI: 10.1021/jo0505526
+167,4-cyano-<i>trans-beta</i>-nitrostyrene,,0,0,-12.61,3,DOI: 10.1021/jo201678u
+168,4-fluoro-benzaldehyde (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+169,4-methoxy-<i>trans-beta</i>-nitrostyrene,,0,0,-14.70,3,DOI: 10.1021/jo201678u
+170,4-methyl-<i>trans-beta</i>-nitrostyrene,,0,0,-14.23,3,DOI: 10.1021/jo201678u
+171,4-nitro-6-(trifluoromethylsulfonyl)benzofuroxan,0,0,0,-4.91,3,DOI: 10.1021/jo0505526
+172,4-nitro-<i>trans-beta</i>-nitrostyrene,,0,0,-12.37,3,DOI: 10.1021/jo201678u
+173,4-nitrobenzodifuroxan (NBDF),0,0,0,-6.15,3,DOI: 10.1002/chem.200700676
+174,4-phenylbut-3-yn-2-one,0,0,0,-16.90,1,DOI: 10.1002/anie.201909803
+175,"5,7,7-trichloro-8(7H)-quinolinone",MeCN,0,0,-10.48,3,DOI: 10.1021/ol100592j
+176,"5-methoxyfuroxano[3,4-d]pyrimidine",0,0,0,-8.37,3,DOI: 10.1002/poc.606
+177,6-cyano-4-nitrobenzofuroxan,0,0,0,-7.01,3,DOI: 10.1021/jo0505526
+178,"6-nitro-tetrazolo[1,5a]pyridine",0,0,0,-9.05,3,DOI: 10.1021/jo0505526
+179,9-(4-(dimethylamino)phenyl)-9H-fluoren-9-ylium,dichloromethane,0,0,-4.51,3,DOI: 10.1002/chem.201603963
+180,9-(4-methoxyphenyl)-9H-fluoren-9-ylium,dichloromethane,0,0,0.85,3,DOI: 10.1002/chem.201603963
+181,9-phenyl-9H-fluoren-9-ylium,dichloromethane,0,0,2.41,3,DOI: 10.1002/chem.201603963
+182,<i>trans-beta</i>-nitrostyrene,,0,0,-13.85,3,DOI: 10.1021/jo201678u
+183,acrylonitrile (in DMSO),DMSO,0,0,-19.05,3,DOI: 10.1021/jacs.7b05106
+184,ani(Br)2QM,0,0,0,-8.63,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+185,ani(Ph)2QM,0,0,0,-12.18,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+186,ani(Ph)CH+,0,0,0,2.11,5,DOI: 10.1021/ja010890y
+187,ani(pop)CH+,0,0,0,0.61,5,DOI: 10.1021/ja010890y
+188,ani(t-Bu)2QM,,0,0,-16.11,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+189,ani(tol)CH+,0,0,0,1.48,5,DOI: 10.1021/ja010890y
+190,aniBBS,0,0,0,-10.37,3,DOI: 10.1021/jo071273g
+191,benzaldehyde (in DMSO),DMSO,0,0,-12.90,1,DOI: 10.1021/jacs.8b01657
+192,benzaldehyde-boron trichloride complex,,0,0,1.12,3,DOI: 10.1021/ar020094c
+193,benzhydrylium ion Ph2CH+,0,0,0,5.47,5,DOI: 10.1021/ja306522b
+194,benzylidene-Meldrum's acid,0,0,0,-9.15,3,DOI: 10.1021/jo702590s
+195,benzylidenemalononitrile,0,0,0,-9.42,3,DOI: 10.1021/jo0344182
+196,bh 6f,,0,0,-18.90,2,DOI: 10.1002/chem.200902487
+197,bh 6i,,0,0,-19.10,2,DOI: 10.1002/chem.200902487
+198,bh 6k,,0,0,-18.20,1,DOI: 10.1002/chem.200902487
+199,bh 6l,,0,0,-18.90,1,DOI: 10.1002/chem.200902487
+200,bh 6m,,0,0,-17.30,1,DOI: 10.1002/chem.200902487
+201,bh6a,,0,0,-18.60,2,DOI: 10.1002/chem.200902487
+202,bh6j,,0,0,-17.90,2,DOI: 10.1002/chem.200902487
+203,"bis(1,2-dimethylindol-3-yl)methylium ion",0,0,0,-10.23,3,DOI: 10.1021/acs.joc.5b01298
+204,bis(1-methylindol-3-yl)methylium ion,0,0,0,-5.99,3,DOI: 10.1021/acs.joc.5b01298
+205,bis(5-methoxy-1-methylindol-3-yl)methylium ion,0,0,0,-6.90,3,DOI: 10.1021/acs.joc.5b01298
+206,bis(julidin-9-yl)allylium ion,,0,0,-9.78,3,DOI: 10.1021/jo201668w
+207,but-3-en-2-one (in DMSO),DMSO,0,0,-16.76,3,DOI: 10.1021/jacs.7b05106
+208,butanal (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+209,butynone,0,0,0,-16.60,1,DOI: 10.1002/anie.201909803
+210,C6H6OMe+-Fe(CO)3,,0,0,-8.94,3,DOI: 10.1021/ar020094c
+211,C6H7+-Fe(CO)3,,0,0,-7.76,3,DOI: 10.1021/ar020094c
+212,C7H7+-Fe(CO)3,,0,0,-3.49,3,DOI: 10.1021/ar020094c
+213,C7H9+-Fe(CO)3,,0,0,-9.21,3,DOI: 10.1021/ar020094c
+214,carbon disulfide,DMSO,0,0,-17.70,3,DOI: 10.1021/jacs.0c01960
+215,cinnamaldehyde (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+216,cinnamonitrile (in DMSO),DMSO,0,0,-24.60,1,DOI: 10.1021/jacs.7b05106
+217,cumyl cation,,0,0,5.74,3,DOI: 10.1021/ma9024569
+218,cyclobutanone (in DMSO),DMSO,0,0,-17.50,1,DOI: 10.1021/jacs.8b01657
+219,cycloheptanone (in DMSO),DMSO,0,0,-22.10,1,DOI: 10.1021/jacs.8b01657
+220,cycloheptenone,DMSO,0,0,-22.00,3,DOI: 10.1039/D0SC06628A
+221,cyclohexanone (in DMSO),DMSO,0,0,-19.90,1,DOI: 10.1021/jacs.8b01657
+222,cyclohexenone,DMSO,0,0,-22.10,3,DOI: 10.1039/D0SC06628A
+223,cyclopentanone (in DMSO),DMSO,0,0,-21.00,1,DOI: 10.1021/jacs.8b01657
+224,cyclopentenone,DMSO,0,0,-20.60,3,DOI: 10.1039/D0SC06628A
+225,di-p-anisyl-allylium ion,,0,0,-1.45,3,DOI: 10.1021/jo201668w
+226,di-p-tolyl-allylium ion,,0,0,1.23,3,DOI: 10.1021/jo201668w
+227,di-tert-butyl azodicarboxylate,MeCN,0,0,-12.23,3,DOI: 10.1002/chem.201001598
+228,"diarylallylium ion (3,3-F2)2",,0,0,6.11,3,DOI: 10.1021/jo201668w
+229,diarylallylium ion (3-F)2,,0,0,4.15,2,DOI: 10.1021/jo201668w
+230,diarylallylium ion (4-Br)2,,0,0,2.85,3,DOI: 10.1021/jo201668w
+231,diarylallylium ion (4-Cl)2,,0,0,2.69,1,DOI: 10.1021/jo201668w
+232,diarylallylium ion (4-NMe2)2,,0,0,-7.50,3,DOI: 10.1021/jo201668w
+233,"dibenzo[a,d]tropylium ion",dichloromethane,0,0,-0.63,1,DOI: 10.1002/jlac.1995199511281
+234,dibenzyl azodicarboxylate,MeCN,0,0,-8.89,3,DOI: 10.1002/chem.201001598
+235,dicarbonyl(cyclopentadienyl)propene-iron(II),,0,0,-11.20,3,DOI: 10.1002/hlca.200590137
+236,"diethyl 2-((1-methyl-1,2,3,4-tetrahydroquinolin-6-yl)methylene)malonate",0,0,0,-23.40,1,DOI: 10.1002/chem.200801277
+237,diethyl 2-((julolidine-9-yl)methylene)malonate,0,0,0,-23.80,1,DOI: 10.1002/chem.200801277
+238,diethyl 3-chloro-benzylidene malonate,0,0,0,-18.98,3,DOI: 10.1002/chem.200801277
+239,diethyl 4-(dimethylamino)benzylidene malonate,0,0,0,-23.10,3,DOI: 10.1002/chem.200801277
+240,diethyl 4-cyano-benzylidene malonate,0,0,0,-18.06,3,DOI: 10.1002/chem.200801277
+241,diethyl 4-methoxy-benzylidene malonate,0,0,0,-21.47,3,DOI: 10.1002/chem.200801277
+242,diethyl 4-methyl-benzylidene malonate,0,0,0,-21.11,3,DOI: 10.1002/chem.200801277
+243,diethyl 4-nitrobenzylidene malonate,0,0,0,-17.67,3,DOI: 10.1002/chem.200801277
+244,diethyl azodicarboxylate,MeCN,0,0,-10.15,3,DOI: 10.1002/chem.201001598
+245,diethyl benzylidene malonate,0,0,0,-20.55,3,DOI: 10.1002/chem.200801277
+246,diethyl fumarate,DMSO,0,0,-17.79,3,DOI: 10.1002/ejoc.201301779
+247,diethyl maleate,DMSO,0,0,-19.49,3,DOI: 10.1002/ejoc.201301779
+248,dihydro-2H-pyran-2-one,DMSO,0,0,-21.80,2,DOI: 10.1039/D0SC06628A
+249,diisopropyl azodicarboxylate,MeCN,0,0,-10.71,3,DOI: 10.1002/chem.201001598
+250,dimethyl diazomalonate,0,0,0,-18.20,3,DOI: 10.1002/chem.202201376
+251,dimethylmethyleneammonium ion,0,0,0,-6.69,1,DOI: 10.1021/ar020094c
+252,diphenylallylium ion,,0,0,2.70,3,DOI: 10.1021/jo201668w
+253,diphenylcarbodiimide,DMSO,0,0,-20.14,3,DOI: 10.1021/jacs.0c01960
+254,diphenyldiazomethane,0,0,0,-21.40,1,DOI: 10.1002/chem.202201376
+255,dma(Ph)2QM,0,0,0,-13.39,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+256,dma(S)BBS,0,0,0,-10.73,3,DOI: 10.1021/jo071273g
+257,dma(t-Bu)2QM,,0,0,-17.29,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+258,dmaBBS,0,0,0,-12.76,3,DOI: 10.1021/jo071273g
+259,"E)-2,6-di-tert-butyl-4-(3-(4-chlorophenyl)allylidene)cyclohexa-2,5-dien-1-one",DMSO,0,0,-16.84,3,DOI: 10.1021/acs.orglett.0c00338
+260,ethenesulfonyl fluoride (ESF),DMSO,0,0,-12.09,3,DOI: 10.1002/anie.201601875
+261,ethenylsulfonylbenzene (in DMSO),DMSO,0,0,-18.36,3,DOI: 10.1021/jacs.7b05106
+262,ethyl (E)-but-2-enoate (in DMSO),DMSO,0,0,-23.59,2,DOI: 10.1021/jacs.7b05106
+263,ethyl 2-methylprop-2-enoate (in DMSO),DMSO,0,0,-22.77,2,DOI: 10.1021/jacs.7b05106
+264,ethyl 3-nitro-1H-indole-1-carboxylate,0,0,0,-14.10,2,DOI: 10.1039/d1cc04074j
+265,ethyl cinnamate (in DMSO),DMSO,0,0,-24.52,2,DOI: 10.1021/jacs.7b05106
+266,ethyl prop-2-enoate (in DMSO),DMSO,0,0,-19.07,3,DOI: 10.1021/jacs.7b05106
+267,fc(ani)CH+,0,0,0,-2.90,3,DOI: 10.1021/ar020094c
+268,fc(Me)CH+,0,0,0,-2.57,1,DOI: 10.1021/ar020094c
+269,fc(Ph)CH+,0,0,0,-2.64,5,DOI: 10.1021/ja010890y
+270,fc2CH+,0,0,0,-8.54,3,DOI: 10.1021/ar020094c
+271,flavylium ion,0,0,0,-3.45,3,DOI: 10.1021/ar020094c
+272,fumaronitrile,DMSO,0,0,-15.71,3,DOI: 10.1002/ejoc.201301779
+273,furan-2(5H)-one,DMSO,0,0,-20.70,3,DOI: 10.1039/D0SC06628A
+274,hex-3-yn-2-one,0,0,0,-17.90,1,DOI: 10.1002/anie.201909803
+275,hexanal (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+276,indolecarboxylate derived iminium ion,dichloromethane,0,0,-9.50,2,DOI: 10.1002/anie.200900933
+277,Jorgensen/Hayashi-iminium ion,0,0,0,-8.20,3,DOI: 10.1002/anie.200802889
+278,jul Meldrum's acid,0,0,0,-13.97,3,DOI: 10.1021/jo702590s
+279,jul(S)BBS,0,0,0,-11.89,3,DOI: 10.1021/jo071273g
+280,jul(t-Bu)2QM,0,0,0,-17.90,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+281,"jul-indan-1,3-dione",0,0,0,-14.68,3,DOI: 10.1039/b708025e
+282,julBBS,0,0,0,-13.84,3,DOI: 10.1021/jo071273g
+283,MacMillan-iminium ion (1st generation),MeCN,0,0,-7.37,3,DOI: 10.1002/anie.201103683
+284,MacMillan-iminium ion (2nd generation),MeCN,0,0,-5.52,3,DOI: 10.1002/anie.201103683
+285,MacMillan-iminium ion (spiro),MeCN,0,0,-7.67,3,DOI: 10.1002/anie.201103683
+286,maleic anhydride,DMSO,0,0,-11.31,3,DOI: 10.1002/ejoc.201301779
+287,Me2N+=CH-CH-Ph,0,0,0,-9.20,3,DOI: 10.1002/anie.200802889
+288,methoxy-(4-methoxyphenyl)methylium ion,0,0,0,0.14,3,DOI: 10.1021/ar020094c
+289,methoxy-(4-methylphenyl)methylium ion,0,0,0,1.90,3,DOI: 10.1021/ar020094c
+290,methoxy-phenylmethylium ion,0,0,0,2.97,3,DOI: 10.1021/ar020094c
+291,methyl diazoacetate,0,0,0,-18.50,3,DOI: 10.1002/chem.202201376
+292,methyl prop-2-enoate (in DMSO),DMSO,0,0,-18.84,3,DOI: 10.1021/jacs.7b05106
+293,methyl(phenyl)methyleneammonium ion,0,0,0,-5.17,1,DOI: 10.1021/ar020094c
+294,mor iminium,0,0,0,-8.60,3,DOI: 10.1002/anie.200802889
+295,"N,N-dimethylprop-2-enamide (in DMSO)",DMSO,0,0,-23.54,3,DOI: 10.1021/jacs.7b05106
+296,N-(difluoromethyl)thio)phthalimide,0,0,0,-11.86,3,DOI: 10.1002/anie.201805859
+297,N-(phenylsulfonyl)-N-((trifluoromethyl)thio)benzenesulfonamide,0,0,0,-6.06,3,DOI: 10.1002/anie.201805859
+298,N-(trifluoromethyl)thio)phthalimide,0,0,0,-11.92,3,DOI: 10.1002/anie.201805859
+299,N-(trifluoromethyl)thio)saccharin,0,0,0,-6.48,3,DOI: 10.1002/anie.201805859
+300,N-(trifluoromethyl)thio)succinimide,0,0,0,-12.56,3,DOI: 10.1002/anie.201805859
+301,N-ethylidenecarbazolium ion,0,0,0,2.41,3,DOI: 10.1021/ar020094c
+302,"N-fluoro-2,4,6-trimethylpyridinium tetrafluoroborate",0,0,0,-10.46,3,DOI: 10.1021/jacs.8b07147
+303,"N-fluoro-2,6-dichloropyridinium tetrafluoroborate",0,0,0,-5.29,3,DOI: 10.1021/jacs.8b07147
+304,N-fluoropyridinium tetrafluoroborate,0,0,0,-9.89,3,DOI: 10.1021/jacs.8b07147
+305,N-methyl maleimide,DMSO,0,0,-14.07,3,DOI: 10.1002/ejoc.201301779
+306,N-methyl-N-((trifluoromethyl)thio)-aniline,0,0,0,-23.32,1,DOI: 10.1002/anie.201805859
+307,N-methyl-N-((trifluoromethyl)thio)-p-toluenesulfonamide,0,0,0,-13.44,3,DOI: 10.1002/anie.201805859
+308,N-methylacridinium ion,0,0,0,-7.15,3,DOI: 10.1021/ar020094c
+309,NFSI,MeCN,0,0,-8.44,3,DOI: 10.1021/jacs.8b07147
+310,o-chloranil (C-Cl),0,0,0,-12.02,3,DOI: 10.1021/ja505613b
+311,o-chloranil (C=O),0,0,0,-8.77,3,DOI: 10.1021/ja505613b
+312,oxan-4-one (in DMSO),DMSO,0,0,-17.90,1,DOI: 10.1021/jacs.8b01657
+313,p-(dimethylamino)benzylidene Meldrum's acid,0,0,0,-12.76,3,DOI: 10.1021/jo702590s
+314,p-(dimethylamino)benzylidenemalononitrile,0,0,0,-13.30,3,DOI: 10.1021/jo0344182
+315,p-(methoxy)benzylidene Meldrum's acid,0,0,0,-10.28,3,DOI: 10.1021/jo702590s
+316,p-(methoxy)benzylidenemalononitrile,0,0,0,-10.80,3,DOI: 10.1021/jo0344182
+317,p-AniCH=N+Me2 (in MeCN),MeCN,0,0,-10.69,3,DOI: 10.1021/ja401106x
+318,p-CF3-C6H4-CH=N+Me2 (in MeCN),MeCN,0,0,-8.34,3,DOI: 10.1021/ja401106x
+319,p-chloranil (C-Cl),0,0,0,-13.84,3,DOI: 10.1021/ja505613b
+320,p-chloranil (C=O),0,0,0,-12.13,3,DOI: 10.1021/ja505613b
+321,p-fluoranil (C-F),0,0,0,-11.12,3,DOI: 10.1021/ja505613b
+322,p-fluoranil (C=O),0,0,0,-9.37,3,DOI: 10.1021/ja505613b
+323,p-nitro-cinnamaldehyde (in DMSO),DMSO,0,0,0,1,DOI: 10.1021/ja200820m
+324,p-nitrophenyl isothiocyanate,DMSO,0,0,-15.89,3,DOI: 10.1021/jacs.0c01960
+325,p-quinone (C-H),0,0,0,-16.19,2,DOI: 10.1021/ja505613b
+326,p-tosyl isocyanate,MeCN,0,0,-7.69,3,DOI: 10.1021/jacs.0c01960
+327,Pd-allyl cation,,0,0,-10.11,3,DOI: 10.1021/ar020094c
+328,pentan-2-one (in DMSO),DMSO,0,0,-22.30,1,DOI: 10.1021/jacs.8b01657
+329,pfp(Ph)CH+,0,0,0,5.20,5,DOI: 10.1021/ja306522b
+330,PhCH=N+(CH2)4 (in MeCN),MeCN,0,0,-9.35,3,DOI: 10.1021/ja401106x
+331,PhCH=N+(CH2)5 (in MeCN),MeCN,0,0,-9.60,3,DOI: 10.1021/ja401106x
+332,PhCH=N+Me2 (in MeCN),MeCN,0,0,-9.27,3,DOI: 10.1021/ja401106x
+333,phenyl isocyanate,MeCN,0,0,-15.38,3,DOI: 10.1021/jacs.0c01960
+334,phenyl isothiocyanate,DMSO,0,0,-18.15,3,DOI: 10.1021/jacs.0c01960
+335,pipN+=CH-CH-Ph,0,0,0,-10.30,1,DOI: 10.1002/anie.200802889
+336,pop(Ph)CH+,0,0,0,2.90,5,DOI: 10.1021/ja010890y
+337,pop(tol)CH+,0,0,0,2.16,3,DOI: 10.1021/ar020094c
+338,propyn-1-ylium-Co2(CO)6,,0,0,-0.84,3,DOI: 10.1021/ar020094c
+339,pTolCH=N+CH2 (in MeCN),MeCN,0,0,-9.64,3,DOI: 10.1021/ja401106x
+340,pyrN+=CH-CH-Ph,0,0,0,-9.80,3,DOI: 10.1002/anie.200802889
+341,Selectfluor,0,0,0,-5.20,3,DOI: 10.1021/jacs.8b07147
+342,tert-butyl prop-2-enoate (in DMSO),DMSO,0,0,-20.22,3,DOI: 10.1021/jacs.7b05106
+343,thian-4-one (in DMSO),DMSO,0,0,-16.90,1,DOI: 10.1021/jacs.8b01657
+344,tol(Ph)CH+,0,0,0,4.43,5,DOI: 10.1021/ja306522b
+345,tol(t-Bu)2QM,0,0,0,-15.83,4,DOI: 10.1002/1521-3773(20020104)41:1<91::AID-ANIE91>3.0.CO;2-P
+346,tritylium ion (Ph3C+),0,0,0,0.51,1,DOI: 10.1021/ja021010y
+347,tropylium ion,0,0,0,-3.72,3,DOI: 10.1021/ar020094c
+348,Vilsmeier ion,0,0,0,-5.77,1,DOI: 10.1021/ar020094c
+349,"[(1,3-Diarylallyl)Pd(PPh3)2]+ (Aryl = 3,5-difluorophenyl)",,0,0,-14.21,3,DOI: 10.1021/om3000357
+350,"[(1,3-Diarylallyl)Pd(PPh3)2]+ (Aryl = 4-(dimethylamino)phenyl)",,0,0,-14.46,3,DOI: 10.1021/om3000357
+351,"[(1,3-Diarylallyl)Pd(PPh3)2]+ (Aryl = Ph)",,0,0,-14.14,3,DOI: 10.1021/om3000357

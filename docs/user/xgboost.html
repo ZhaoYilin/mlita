@@ -50,7 +50,7 @@
               <p class="caption" role="heading"><span class="caption-text">USER DOCUMENTATION:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">1. Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ita.html">2. ITA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ita.html">2. The Information-theoretic approach quantities (ITA)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datasets.html">3. Data Sets</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">4. Xgboost</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#The-algorithm">4.1. The algorithm</a></li>
@@ -97,6 +97,35 @@ approximates the same decision function.</p>
 <h2><span class="section-number">4.1. </span>The algorithm<a class="headerlink" href="#The-algorithm" title="Permalink to this heading"></a></h2>
 <p>XGBoost works as Newton-Raphson in function space unlike gradient boosting that works as gradient descent in function space, a second order Taylor approximation is used in the loss function to make the connection to Newton Raphson method.</p>
 <p>A generic unregularized XGBoost algorithm is:</p>
+<p>Input: training set <span class="math notranslate nohighlight">\(\{(x_{i},y_{i})\}_{i=1}^{N}\)</span>, a differentiable loss function <span class="math notranslate nohighlight">\(L(y, F(x))\)</span>, a number of weak learners M and a learning rate <span class="math notranslate nohighlight">\(\alpha\)</span>.</p>
+<p>Algorithm:</p>
+<ol class="arabic">
+<li><p>Initialize model with a constant value:</p>
+<div class="math notranslate nohighlight">
+\[\hat{f}_0(x) = arg_{\theta}\quad min \sum_{i=1}^N L(y_i,\theta)\]</div>
+</li>
+<li><p>For m = 1 to M:</p>
+<p>2.1 Compute the ‘gradients’ and ‘hessians’:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\hat{g}_m(x_i) &amp;= \left[\frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right]_{f(x)=\hat{f}_{m-1}(x)}\\
+\hat{h}_m(x_i) &amp;= \left[\frac{\partial^2 L(y_i,f(x_i))}{\partial^2 f(x_i)} \right]_{f(x)=\hat{f}_{m-1}(x)}\\
+\end{aligned}\end{split}\]</div>
+<p>2.2 Fit a base learner (or weak learner, e.g. tree) using the training set <span class="math notranslate nohighlight">\(\{ x_i, -\frac{\hat{g}_m(x_i)}{\hat{h}_m(x_i)} \}_{i=1}^N\)</span> , by solving the optimization problem below:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\hat{\phi}_m &amp;= arg_{\theta}\quad min \sum_{i=1}^N \frac{1}{2}\hat{h}_m(x_i) \left[ \phi(x_i) -\frac{\hat{g}_m(x_i)}{\hat{h}_m(x_i)} \right]^2 \\
+\hat{f}_m(x) &amp;= \alpha \hat{\phi}_m(x)
+\end{aligned}\end{split}\]</div>
+<p>2.3 Update the model:</p>
+<div class="math notranslate nohighlight">
+\[\hat{f}_{(m)}(x) = \hat{f}_{(m-1)}(x) + \hat{f}_m(x)\]</div>
+</li>
+<li><p>Output:</p>
+<div class="math notranslate nohighlight">
+\[\hat{f}(x) = \hat{f}_{(M)}(x) = \sum_{m=0}^M \hat{f}_{m}(x)\]</div>
+</li>
+</ol>
 </section>
 <section id="Build-Model">
 <h2><span class="section-number">4.2. </span>Build Model<a class="headerlink" href="#Build-Model" title="Permalink to this heading"></a></h2>
@@ -125,8 +154,6 @@ approximates the same decision function.</p>
 (209,)
 </pre></div></div>
 </div>
-<p>We can specify the essential information of a molecule by Python iterator, tuple or list, in matrix format. Each row of the geo obejct represents an atom in molecule, with first element the number or symbol (case insensitive) of the element.</p>
-<p>Another way to build the <code class="docutils literal notranslate"><span class="pre">Molecule</span></code> instance is loading the molecular geometry from .xyz file.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[33]:
 </pre></div>
@@ -211,14 +238,14 @@ True
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<img alt="../_images/user_xgboost_11_1.png" src="../_images/user_xgboost_11_1.png" />
+<img alt="../_images/user_xgboost_9_1.png" src="../_images/user_xgboost_9_1.png" />
 </div>
 </div>
 <div class="nboutput nblast docutils container">
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<img alt="../_images/user_xgboost_11_2.png" src="../_images/user_xgboost_11_2.png" />
+<img alt="../_images/user_xgboost_9_2.png" src="../_images/user_xgboost_9_2.png" />
 </div>
 </div>
 <div class="nbinput nblast docutils container">

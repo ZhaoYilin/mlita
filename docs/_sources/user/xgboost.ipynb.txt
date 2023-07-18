@@ -25,7 +25,42 @@
     "\n",
     "A generic unregularized XGBoost algorithm is:\n",
     "\n",
-    "\n"
+    "Input: training set $\\{(x_{i},y_{i})\\}_{i=1}^{N}$, a differentiable loss function $L(y, F(x))$, a number of weak learners M and a learning rate $\\alpha$.\n",
+    "\n",
+    "Algorithm:\n",
+    "\n",
+    "1. Initialize model with a constant value:\n",
+    "    $$\n",
+    "    \\hat{f}_0(x) = arg_{\\theta}\\quad min \\sum_{i=1}^N L(y_i,\\theta)\n",
+    "    $$\n",
+    "\n",
+    "2. For m = 1 to M:\n",
+    "\n",
+    "    2.1 Compute the 'gradients' and 'hessians':\n",
+    "        $$\n",
+    "        \\begin{aligned}\n",
+    "        \\hat{g}_m(x_i) &= \\left[\\frac{\\partial L(y_i,f(x_i))}{\\partial f(x_i)} \\right]_{f(x)=\\hat{f}_{m-1}(x)}\\\\\n",
+    "        \\hat{h}_m(x_i) &= \\left[\\frac{\\partial^2 L(y_i,f(x_i))}{\\partial^2 f(x_i)} \\right]_{f(x)=\\hat{f}_{m-1}(x)}\\\\\n",
+    "        \\end{aligned}\n",
+    "        $$\n",
+    "    \n",
+    "    2.2 Fit a base learner (or weak learner, e.g. tree) using the training set $\\{ x_i, -\\frac{\\hat{g}_m(x_i)}{\\hat{h}_m(x_i)} \\}_{i=1}^N$ , by solving the optimization problem below:\n",
+    "        $$\n",
+    "        \\begin{aligned}\n",
+    "        \\hat{\\phi}_m &= arg_{\\theta}\\quad min \\sum_{i=1}^N \\frac{1}{2}\\hat{h}_m(x_i) \\left[ \\phi(x_i) -\\frac{\\hat{g}_m(x_i)}{\\hat{h}_m(x_i)} \\right]^2 \\\\\n",
+    "        \\hat{f}_m(x) &= \\alpha \\hat{\\phi}_m(x)\n",
+    "        \\end{aligned}\n",
+    "        $$\n",
+    "        \n",
+    "    2.3 Update the model:\n",
+    "        $$\n",
+    "        \\hat{f}_{(m)}(x) = \\hat{f}_{(m-1)}(x) + \\hat{f}_m(x) \n",
+    "        $$\n",
+    "    \n",
+    "3. Output: \n",
+    "    $$\n",
+    "    \\hat{f}(x) = \\hat{f}_{(M)}(x) = \\sum_{m=0}^M \\hat{f}_{m}(x)\n",
+    "    $$\n"
    ]
   },
   {
@@ -62,22 +97,6 @@
     "print(model.data.shape)\n",
     "print(model.x_data.shape)\n",
     "print(model.y_data.shape)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "83984ea9",
-   "metadata": {},
-   "source": [
-    "We can specify the essential information of a molecule by Python iterator, tuple or list, in matrix format. Each row of the geo obejct represents an atom in molecule, with first element the number or symbol (case insensitive) of the element."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "58ab9f2a",
-   "metadata": {},
-   "source": [
-    "Another way to build the `Molecule` instance is loading the molecular geometry from .xyz file."
    ]
   },
   {
