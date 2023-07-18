@@ -1,5 +1,5 @@
-.. gaint documentation master file, created by
-   sphinx-quickstart on Fri Apr 20 03:14:34 2023.
+.. mlita documentation master file, created by
+   sphinx-quickstart on Wed Jul 19 00:23:34 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -17,12 +17,12 @@ Contents
 
    user/installation
    user/ita
+   user/datasets
    user/xgboost
-
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
-
+* :ref:`search`
