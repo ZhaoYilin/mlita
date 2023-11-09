@@ -4,10 +4,10 @@ import os
 import sys
 import platform
 
-setup(name='mlita',
+setup(name='pyita',
     version='0.0',
-    description='Machine learning information-theoretic approach.',
-    url='https://zhaoyilin.github.io/mlita/',
+    description='DFT information-theoretic approach.',
+    url='https://zhaoyilin.github.io/pyita/',
     author='Yilin Zhao',
     author_email='zhaoyilin1991@gmail.com',
     license='MIT',

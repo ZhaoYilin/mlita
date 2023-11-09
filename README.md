@@ -1,5 +1,5 @@
-# mlita
-Machine learning information-theoretic approach.
+# pyita
+DFT information-theoretic approach.
 
 # For further information, please visit:
-https://zhaoyilin.github.io/mlita/
+https://zhaoyilin.github.io/pyita/

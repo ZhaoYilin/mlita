@@ -19,7 +19,8 @@ Contents
    user/installation
    user/ita
    user/datasets
-   user/xgboost
+   user/tml
+   user/dl
 
 Indices and tables
 ==================
